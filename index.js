@@ -2,7 +2,8 @@
 var Main = {
 	commandIndex:2,
 	command:{
-		init:require('./src/command/init.js')
+		init:require('./src/command/init.js'),
+		install:require('./src/command/install.js')
 	},
 	init: function () {
 		this.checkCommand();
